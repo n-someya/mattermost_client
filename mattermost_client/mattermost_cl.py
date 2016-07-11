@@ -38,7 +38,7 @@ class MatterMostClient(object):
             if resp.text:
                 try:
                     body = json.load(resp.text)
-                except ValueError:
+                except (ValueError, AttributeError):
                     pass
                     body = None
             else:
