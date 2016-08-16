@@ -19,5 +19,7 @@ setup(
     install_requires=['requests'],
     url='https://github.com/n-someya/mattermost_client',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    include_package_data=True,
+    keywords=['Mattermost', 'Slack'],
 )
