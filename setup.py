@@ -16,6 +16,7 @@ setup(
     long_description=readme,
     author='Naoki Someya',
     author_email='n.someya.ynu@gmail.com',
+    install_requires=['requests'],
     url='https://github.com/n-someya/mattermost_client',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
