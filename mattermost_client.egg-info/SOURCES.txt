@@ -1,0 +1,9 @@
+setup.py
+mattermost_client/__init__.py
+mattermost_client/exceptions.py
+mattermost_client/mattermost_cl.py
+mattermost_client.egg-info/PKG-INFO
+mattermost_client.egg-info/SOURCES.txt
+mattermost_client.egg-info/dependency_links.txt
+mattermost_client.egg-info/requires.txt
+mattermost_client.egg-info/top_level.txt

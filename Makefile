@@ -3,3 +3,6 @@ init:
 
 test:
 	nosetests 
+
+package: 
+	python setup.py bdist_wheel
