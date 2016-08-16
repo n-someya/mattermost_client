@@ -6,3 +6,6 @@ test:
 
 package: 
 	python setup.py bdist_wheel
+
+register:
+	python setup.py register
