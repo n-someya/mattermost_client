@@ -10,7 +10,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='mattermost_client',
     version='0.0.1',
     description='Mattermost(and Slack) incommig webhook client',
     long_description=readme,
